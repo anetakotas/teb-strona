@@ -1,0 +1,1118 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    line-height: 1.4;
+    background-color: #f5f7f9;
+    overflow-x: hidden;
+    
+}
+
+nav {
+    background-color: rgba(28, 28, 28, 0.378);
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    top: 100px;
+    align-items: flex-end;
+    padding: 0 10px;
+    
+    
+}
+
+nav a, p {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+
+.teb-logo {
+    margin: 20px 0 0 0;
+}
+
+.nav-links {
+    flex-basis: 820px;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+    
+}
+
+.nav1 div:nth-child(2) {
+    margin-left: 50px;
+}
+
+.socials-tablet {
+    display: none;
+}
+
+.socials {
+    display: flex;
+    position: relative;
+}
+
+.socials p {
+    margin-left: 10px;
+}
+
+.socials img {
+    width: auto;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.socials::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.446);
+    width: 50px;
+    height: 1px;
+    transform: rotate(90deg);
+    top: -4px;
+    left: -25px;
+}
+
+.contact {
+    position: relative;
+}
+
+.contact::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.446);
+    width: 50px;
+    height: 1px;
+    transform: rotate(90deg);
+    top: -4px;
+    left: -47px;
+}
+
+.login {
+    position: relative;
+}
+
+.login::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.446);
+    width: 50px;
+    height: 1px;
+    transform: rotate(90deg);
+    top: -4px;
+    right: 260px;
+    
+}
+
+.login a {
+    background: url(/photos/btn-more-yellow.png) right no-repeat;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.contact a:hover, .login a:hover {
+    color: #0b3061;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+
+.nav2 a:hover {
+    color: #0b3061;
+}
+
+.ham-menu {
+    display: none;
+}
+
+.header {
+    
+    width: 100%;
+}
+
+.section1-slider {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.slider-container {
+    width: 100%;
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+    height: 490px;
+    max-width: 1920px;
+    background-position: center;
+}
+
+.slides {
+    position: absolute;
+    width: 100%;
+    height: 490px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: -3;
+    background-position: center;
+}
+
+.slides:nth-child(1) {
+    background-image: url(/photos/www_slider_1920x490_wybieraj_3.jpg);
+}
+
+.slides:nth-child(2) {
+    background-image: url(/photos/www_slider_1920x490_9.jpg);
+}
+
+.slides:nth-child(3) {
+    background-image: url(/photos/www_slider_1920x490_umowa_zdalnie.jpg);
+}
+
+.slides:nth-child(4) {
+    background-image: url(/photos/www_slider_1920x490_SBC_4.jpg);
+}
+
+.showing {
+    opacity: 1;
+    z-index: 0;
+}
+
+.slider-buttons-container {
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 1260px;
+    height: 270px;
+}
+
+.slider-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.slider-buttons a {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 9px 35px 8px 15px; 
+    width: 250px;
+    margin: 5px 0;
+    color: rgb(250, 250, 250);
+    font-style: italic;
+    background-image: url(/photos/btn-base.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    
+}
+
+.slider-buttons a:hover {
+    background-position: bottom;
+}
+
+.slider-buttons a:nth-child(2) {
+    filter: saturate(600%) grayscale(100%);
+}
+
+.slider-buttons a:nth-child(3) {
+    filter: hue-rotate(145deg) saturate(200%);
+    margin-top: 40px;
+    position: relative;
+}
+
+.slider-buttons a:nth-child(3):before {
+    content: '';
+    position: absolute;
+    background-image: url(/photos/bg_hr-dot.png);
+    width: 250px;
+    height: 1px;
+    top: -22px;
+    left: 0;
+}
+
+.slider-button-tablet {
+    display: none;
+}
+
+.slider-counter {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#number-active {
+    background-image: url(/photos/bg_slider-num-actv.png);
+}
+
+.slider-number {
+    width: 19px;
+    height: 19px;
+    background-image: url(/photos/bg_slider-num.png);
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(250, 250, 250);
+    margin-top: 30px;
+    
+}
+
+
+.slider-counter div:hover {
+    background-image: url(/photos/bg_slider-num-actv.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.card-container {
+    background-color: #ffffff;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+
+.card-container::after {
+    content: '';
+    width: 100%;
+    height: 20px;
+    background-image: url(/photos/bg_section-bottom.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -20px
+}
+
+.card {
+    margin: 1em auto;
+    margin-top: 0;
+    padding: 0 20px;
+    width: 25%;
+    box-sizing: content-box;
+}
+
+.card a img {
+    width: 100%;
+    height: auto;
+    max-width: 309px;
+}
+
+.card a {
+    max-width: 309px;
+    
+}
+
+.card-heading {
+    height: 56px;
+    width: 100%;
+    
+    max-width: 309px;
+    background-image: url(/photos/card_policealne.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #ef7d00;
+    background-size: 60%;
+}
+
+.card-container div:nth-child(2) .card-heading {
+    background-image: url(/photos/card_medyczne.png);
+    background-color: #00a297;
+}
+
+.card-container div:nth-child(3) .card-heading {
+    background-image: url(/photos/card_online.png);
+    background-color: #051f5c;
+}
+
+.card-container div:nth-child(4) .card-heading {
+    background-image: url(/photos/card_technikum.png);
+    background-color: #e30613;
+}
+
+.card-container div:nth-child(5) .card-heading {
+    background-image: url(/photos/card_akademia.png);
+    background-color: #702283;
+}
+
+.card-container div:nth-child(6) .card-heading {
+    background-image: url(/photos/card_liceum.png);
+    background-color: #52ae32;
+}
+
+.card-container div:nth-child(7) .card-heading {
+    background-image: url(/photos/card_kursy.png);
+    background-color: #5d686e;
+}
+
+.card-container div:nth-child(8) .card-heading {
+    background-image: url(/photos/card_projekty.png);
+    background-color: #0084d3;
+}
+
+.card-container div:nth-child(9) .card-heading {
+    background-image: url(/photos/card_produkt.png);
+    background-color: #23376c;
+}
+
+.card-container div:nth-child(10) .card-heading {
+    background-image: url(/photos/card_letnia.png);
+    background-color: #d57590;
+}
+
+.card-container div:nth-child(11) .card-heading {
+    background-image: url(/photos/card_biblioteka.png);
+    background-color: #4292d7;
+}
+
+.card-container div:nth-child(12) .card-heading {
+    background-image: url(/photos/card_policealne.png);
+    background-color: #ef7d00;;
+}
+
+.main-footer-wrapper {
+    display: grid;
+    place-items: center;
+    margin-bottom: 30px;
+}
+.footer-news {
+    max-width: 325px;
+}
+
+.footer-news > h2 , .footer-promo > h2  {
+    color: #60a4d1;
+    font-weight: 400;
+    margin: 30px 10px;
+}
+
+.main-footer a {
+    text-decoration: none;
+}
+
+.footer-promo {
+    max-width: 650px;
+}
+
+.footer-text p, .footer-promo-first p, .footer-promo-second p {
+    background-color: #60a4d1;
+    line-height: 1.3em;
+    font-size: 13px;
+    padding: 7px 12px;
+    margin-bottom: 20px;
+    
+}
+
+.footer-text h3, .footer-promo-first h3, .footer-promo-second h3 {
+    background-color: #1b345e;
+    font-size: 16px;
+    padding: 15px 12px;
+}
+
+.footer-text h3 a, .footer-promo-first h3 a, .footer-promo-second h3 a {
+    display: block;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.footer-text h3 a:hover, .footer-promo-first h3 a:hover, .footer-promo-second h3 a:hover {
+    color: #787c7f;
+}
+
+
+.main-footer {
+    display: flex;
+}
+
+.footer-promo-boxes {
+    display: flex;
+}
+
+.footer-content, .footer-promo-first, .footer-promo-second {
+    margin-right: 25px;
+    
+}
+
+.footer-content, .footer-promo-first, .footer-promo-second {
+    position: relative;
+}
+
+.footer-content::after, .footer-promo-first::after, .footer-promo-second::after {
+    content: '';
+    position: absolute;
+    max-width: 313px;
+    height: 78px;
+    z-index: -1;
+    background-color: #b0adab;
+    top: 54px;
+    left: 0;
+
+}
+
+.footer-promo-first::after {
+    max-width: 308px
+}
+
+.footer-promo-second::after {
+    max-width: 316px;
+}
+
+
+
+.footer-content > a, .footer-promo-first > a, .footer-promo-second > a {
+    font-size: 12px;
+    float: right;
+    padding: 4px 27px 4px 0;
+    background-image: url(/photos/more-navy-blue.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 1px;
+    color: #838180;
+}
+
+.footer-content > a:hover, .footer-promo-first > a:hover, .footer-promo-second > a:hover {
+    color: #1b345e;
+}
+
+.partners-wrapper {
+    margin: 0 auto;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logos {
+    width: 800px;
+    border-top: 1px solid #e1e7eb;
+    margin-top: 20px;
+    position: relative;
+}
+
+.logos::before {
+    content: 'Nasi partnerzy';
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    color: #787c7f;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f5f7f9;
+
+}
+
+
+.partners {
+    width: 800px;
+    padding: 20px 0 30px 0;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 5px;
+    text-align: center;
+    box-sizing: content-box;
+    line-height: 1.4;
+    position: relative;
+}
+
+
+.partners a {
+    margin: 0 8px;
+}
+
+.partners img {
+    vertical-align: middle;
+}
+
+
+.cities {
+    width: 976px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dae1e6;
+    background-color: #fff;
+    padding: 22px 11px;
+    position: relative;
+    box-sizing: content-box;
+    
+}
+
+.cities::after {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 20px;
+    background: url(photos/bg_section-bottom.png) 50% bottom no-repeat;
+    bottom: -20px;
+    left: 0;
+}
+
+.cities ul {
+    width: 117px;
+    list-style: none;
+    margin: 0 11px;
+}
+
+.cities ul a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 2px 0 2px 10px;
+    display: block;
+    background: url(/photos/arrow-link.png) 0 50% no-repeat;
+    line-height: 1.2em;
+    color: #787c7f;
+}
+
+.cities ul a:hover {
+    background-image: url(/photos/arrow-link-actv.png);
+    color: #012853;
+}
+
+.links {
+    background-color: #60a4d1;
+    margin-top: -24px;
+}
+
+.info {
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1.2em;
+    border-bottom: 1px solid #78b0d5;
+    padding: 50px 22px 30px 22px;
+    width: 956px;
+    box-sizing: content-box;
+}
+
+.info p {
+    color: #265574;
+    display: inline-block;
+    
+}
+
+.sitemap a span {
+    font-size: 18px;
+    vertical-align: sub;
+    color: #f8a300;
+    
+}
+
+.sitemap {
+    width: 956px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 22px;
+}
+
+.sitemap li {
+    list-style: none;
+    width: 127px;
+    display: inline-flex;
+    
+}
+
+.sitemap a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+.sitemap ul a:hover, #upanchor:hover {
+    color: #f8a300;
+}
+
+.sitemap ul a {
+    background: url(/photos/arrow-link2.png) 0 50% no-repeat;
+    padding: 1px 0 1px 12px;
+}
+
+.sitemap ul {
+    width: 548px;
+}
+
+.phone {
+    padding-left: 20px;
+    background: url(/photos/ico-phone.png) 0 5% no-repeat;
+    display: block;
+}
+
+#upanchor {
+    padding: 4px 34px 4px 0;
+    background: url(/photos/ico-top.png) 50px 3px no-repeat;
+}
+
+.copyright {
+    background-color: #4f95c3;
+    border-top: 1px solid #70add6;
+}
+
+.copyright-content {
+    margin: 0 auto;
+    width: 956px;
+    padding: 22px 22px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.copyright-content a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.2em;
+
+}
+
+.copyright-content p a:hover {
+    color: #f8a300;
+}
+
+.copyright-icons {
+    width: 264px;
+    text-align: end;
+}
+
+.copyright-icons a img {
+    margin: 5px;
+}
+
+
+@media (max-width: 1080px) {
+
+    .nav1 {
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .login {
+        visibility: collapse;
+    }
+
+    .nav2 {
+        font-size: 0.8em;
+        justify-content: flex-end;
+        margin-left: 0;
+    }
+
+    .nav2 a {
+        margin: 0 10px;
+    }
+
+    .slider-counter {
+        margin-right: 10px;
+    }
+
+    .slides {
+        max-width: 991px;
+        height: 420px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background-repeat: no-repeat;
+    }
+
+    .slides:nth-child(1) {
+        background-image: url(/photos/slider_991x420_umowa-zdalnie.jpg);
+    }
+
+    .slides:nth-child(2) {
+        background-image: url(/photos/slider_767x420_czesne0zl_3.jpg);
+    }
+
+    .slides:nth-child(3) {
+        background-image: url(/photos/slider_991x420_umowa-zdalnie.jpg);
+    }
+
+    .slides:nth-child(4) {
+        background-image: url(/photos/slider_767x420_czesne0zl_3.jpg);
+    }
+
+    .card-container {
+        width: 700px;
+        background-color: transparent;
+        justify-content: center;
+    }
+
+    .card-container::after {
+        display: none;
+    }
+
+    .card {
+        width: 44%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .main-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-news {
+        max-width: 530px;
+    }
+
+    .footer-more-button {
+        font-size: .9em !important
+    }
+
+    .footer-content:after, .footer-promo-first::after, .footer-promo-second::after {
+        display: none;
+    }
+
+    .footer-promo-boxes {
+        flex-direction: column;
+    }
+
+   
+
+    .footer-text h3, .footer-promo-first h3, .footer-promo-second h3 {
+        background-color: #387094;
+    }
+
+    .footer-text p, .footer-promo-first p, .footer-promo-second p {
+        background-color: #71a8cd;
+        min-height: 50px;
+    }
+
+    .footer-more-button {
+        margin-bottom: 22px;
+    }
+
+    .partners-wrapper, .cities {
+        display: none;
+    }
+
+    .info {
+        font-size: 16px;
+        width: 700px;
+    }
+
+    .sitemap ul {
+        display: none;
+    }
+
+    .sitemap {
+        width: 750px;
+    }
+
+    .sitemap .phone {
+        font-size: 18px;
+        
+    }
+
+    .sitemap .phone span {
+        vertical-align: baseline;
+    }
+
+    .copyright-content {
+        width: 750px;
+    }
+
+    .copyright-icons {
+        padding-right: 50px;
+    }
+    
+
+}
+
+
+@media (max-width: 770px)  {
+
+    main, footer, .slider-buttons-container {
+        position: relative;
+        bottom: -260px;
+    }
+
+    nav {
+        align-items: center;
+        background-color: transparent;
+    }
+    
+    .nav1 .socials, .contact, .login, .socials::before{
+        display: none;
+    }
+
+    .nav2 {
+        display: none;
+    }
+
+    .socials-tablet {
+        display: block;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .socials-tablet img:nth-child(1) {
+        border-radius: 4px;
+        margin-right: 10px;
+    }
+
+    .ham-menu {
+        display: block;
+    }
+
+    .ham-button {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .ham-menu > .ham-button > span {
+        background-color: #fff;
+        width: 43px;
+        height: 8px;
+        display: block;
+        margin-bottom: 7px;
+        border-radius: 2px;
+
+    }
+
+    .ham-menu > .ham-button > span:last-child {
+        margin-bottom: 0;
+    }
+
+    .slides {
+        max-width: 991px;
+        height: 420px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background-repeat: no-repeat;
+    }
+
+    .slides:nth-child(1) {
+        background-image: url(/photos/slider_991x420_umowa-zdalnie.jpg);
+    }
+
+    .slides:nth-child(2) {
+        background-image: url(/photos/slider_767x420_czesne0zl_3.jpg);
+    }
+
+    .slides:nth-child(3) {
+        background-image: url(/photos/slider_991x420_umowa-zdalnie.jpg);
+    }
+
+    .slides:nth-child(4) {
+        background-image: url(/photos/slider_767x420_czesne0zl_3.jpg);
+    }
+
+    .slider-counter {
+        display: none;
+    }
+
+    .slider-buttons-container {
+        background-color: #f5f7f9;
+        display: flex;
+        align-items: center;
+        height: 140px;
+        border-bottom: 1px solid #f8952d;
+    }
+
+    .slider-buttons {
+        width: 520px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    
+    }
+
+    .slider-buttons a:nth-child(3):before {
+        display: none;
+    }
+
+    .slider-buttons a:nth-child(3) {
+        margin-top: 5px;
+    }
+
+    .slider-button-tablet {
+        display: block;
+    }
+
+    .card-container {
+        width: 100%;
+        gap: 0 50px;
+    }
+
+    .card {
+        width: 35%;
+    }
+
+    .footer-content, .footer-promo-first, .footer-promo-second {
+        margin-right: 0;
+    }
+
+    .info, .phone {
+        display: none;
+    }
+
+    .sitemap {
+        justify-content: end;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .sitemap a {
+        font-size: 0.9em;
+        width: 100px;
+    }
+
+    #upanchor {
+        background-position: 65px 5px;
+    }
+
+    .copyright-content {
+        width: 100%;
+        flex-direction: column;
+        font-size: 18px;
+        font-weight: 600;
+        align-items: center;
+    }
+
+    .copyright-content p:nth-child(3) {
+        display: none;
+    }
+
+    .copyright-icons {
+        padding-right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 43%;
+    }
+
+    .footer-promo-boxes {
+        max-width: 570px;
+    }
+
+    .main-footer {
+        padding: 20px;
+        
+    }
+}
+
+
+@media (max-width: 520px) {
+
+    nav {
+        align-items: flex-start;
+    }
+
+    .teb-logo img {
+        display: none;
+    }
+
+    .teb-logo a {
+        background-image: url(/photos/teb_edukacja_pion.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 80px;
+        height: 120px;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .teb-logo {
+        margin-top: 0;
+    }
+
+    .ham-button {
+        padding: 10px;
+    }
+
+    .slider-container {
+        top: -120px;
+    }
+
+    .slides:nth-child(1) {
+        background-image: url(/photos/slider_519x420_umowa-zdalnie.jpg);
+    }
+
+    .slides:nth-child(2) {
+        background-image: url(/photos/slider_519x420_czesne0zl_4.jpg);
+    }
+
+    .slides:nth-child(3) {
+        background-image: url(/photos/slider_519x420_umowa-zdalnie.jpg);
+    }
+
+    .slides:nth-child(4) {
+        background-image: url(/photos/slider_519x420_czesne0zl_4.jpg);
+    }
+
+    .slider-buttons-container {
+        padding: 20px;
+        padding-top: 0;
+        height: auto;
+    }
+
+    .slider-buttons {
+        justify-content: center;
+        gap: 0;
+    }
+
+    .slider-buttons-container {
+        padding-bottom: 10px;
+    }
+
+    .slider-button-tablet {
+        display: none;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    .copyright-content {
+        display: block;
+    }
+
+    .copyright-content p {
+        text-align: center;
+    }
+
+    .copyright-icons {
+        text-align: left;
+    }
+
+
+}
+
+
+@media (max-width: 345px) {
+    .card {
+        width: 80%;
+    }
+}

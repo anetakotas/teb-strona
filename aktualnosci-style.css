@@ -1,0 +1,982 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    line-height: 1.4;
+    background: #f5f7f9 url(/photos/bg_header.jpg) 50% 0 no-repeat;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: rgba(28, 28, 28, 0.378);
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    top: 100px;
+    align-items: flex-end;
+    padding: 0 10px;
+    
+    
+}
+
+nav a, p {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+
+.teb-logo {
+    margin: 20px 0 0 0;
+}
+
+.nav-links {
+    flex-basis: 820px;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+    
+}
+
+.nav1 div:nth-child(2) {
+    margin-left: 50px;
+}
+
+.socials-tablet {
+    display: none;
+}
+
+.socials {
+    display: flex;
+    position: relative;
+}
+
+.socials p {
+    margin-left: 10px;
+}
+
+.socials img {
+    width: auto;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.socials::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.446);
+    width: 50px;
+    height: 1px;
+    transform: rotate(90deg);
+    top: -4px;
+    left: -25px;
+}
+
+.contact {
+    position: relative;
+}
+
+.contact::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.446);
+    width: 50px;
+    height: 1px;
+    transform: rotate(90deg);
+    top: -4px;
+    left: -47px;
+}
+
+.login {
+    position: relative;
+}
+
+.login::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.446);
+    width: 50px;
+    height: 1px;
+    transform: rotate(90deg);
+    top: -4px;
+    right: 260px;
+    
+}
+
+.login a {
+    background: url(/photos/btn-more-yellow.png) right no-repeat;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.contact a:hover, .login a:hover {
+    color: #0b3061;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+
+.nav2 a:hover {
+    color: #0b3061;
+}
+
+.main-back {
+    display: none;
+}
+
+.header {
+    width: 100%;
+}
+
+.breadcrumbs {
+    text-align: center;
+    padding: 17px 5px;
+    font-size: 0.8em;
+    color: #fff;
+    
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #9fc7e3;
+    
+}
+
+.breadcrumbs li {
+    display: inline;
+}
+
+.breadcrumbs li:hover, a:hover {
+    color: #0b3061;
+}
+
+.breadcrumbs li:first-child:after {
+    padding-left: 5px;
+    content:"\00bb";
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #ffffff;
+    width: 1260px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 60px;
+    
+}
+
+.main-nav-left {
+    grid-column: 1/3;
+
+}
+
+.main-content::after {
+    content: '';
+    position: absolute;
+    width: 1260px;
+    height: 20px;
+    background: url(/photos/bg_section-bottom.png) left bottom no-repeat;
+    bottom: -40px;
+    left: -270px;
+}
+
+.main-content-news {
+    max-width: 470px;
+    margin-bottom: 30px;
+}
+
+
+.main-content-news a {
+    text-decoration: none;
+    color: #0a3061;
+
+}
+
+.main-content-news h3 {
+    font-weight: 300;
+    font-style: italic;
+    background: url(/photos/bg_news-head.png) 0 bottom no-repeat;
+    line-height: 1.2em;
+    padding: 0 30px 13px 0;
+    font-size: 20px;
+}
+
+.main-content-news h3 > a {
+    background-color: #fff;
+    padding-right: 10px;
+}
+
+.news-date {
+    color: #0a3061;
+    padding: 10px 0;
+    font-size: .6em;
+}
+
+.main-content-news img {
+    max-width: 180px;
+    margin-right: 20px;
+}
+
+.news-content {
+    display: flex;
+    font-size: 0.8em;
+}
+
+.news-content > div > p {
+    color: #787c7f;
+    line-height: 1.3em;
+    padding-bottom: 5px;
+}
+
+.news-more {
+    font-size: 12px;
+    margin: 5px 0 10px 0;
+    padding: 3px 0;
+    background: url(/photos/more-next.png) 90% 50% no-repeat;
+    max-width: 100px;
+}
+
+.news-more a {
+    padding: 4px 27px 4px 0;
+}
+
+.main-contact {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+    grid-column: 3/11;
+    position: relative;
+}
+
+.main-nav-left {
+    padding-right: 25px;
+    grid-row: 1/3;
+}
+
+.main-nav-left a {
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid #105480;
+    display: block;
+    line-height: 1em;
+    padding: 8px 20px 9px 10px;
+    background-color: #105480;
+    color: #fff;
+    font-weight: 300;
+    
+}
+
+.main-nav-left li {
+    list-style: none;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #0b3061;
+}
+
+
+.button-active {
+    background: url(/photos/bg_menu-item-actv.png) no-repeat;
+}
+
+.dotted-line {
+    height: 1px;
+    width: 100%;
+    background: url(/photos/bg_hr-dot.png) repeat-x;
+    margin: 22px 0;
+}
+
+.left-buttons-wrapper a {
+    border: none;
+    border-bottom: 1px solid #0b3061;
+    
+}
+
+.left-buttons-wrapper a {
+    text-transform: uppercase;
+    font-style: italic;
+    background-image: url(/photos/bg_btn-h35-blue.png);
+    background-repeat: repeat-x;
+    background-position: top left;
+    position: relative;
+}
+
+.left-buttons-wrapper a::after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-image: url(/photos/bg_btn-more.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    top: 12px;
+    right: 15px;
+}
+
+.left-buttons-wrapper li:last-child a {
+    background-image: url(/photos/bg_btn-h35-lightblue.png);
+}
+
+.left-buttons-wrapper a:hover {
+    background-position: 50% 94%;
+    
+}
+
+.main-content {
+    grid-column: 3/9;
+    padding: 0 0 20px 14px;
+    color: #0b3061;
+    position: relative;
+    
+}
+
+
+.head-box {
+    padding: 15px;
+    margin-bottom: 23px;
+    border: 1px solid #dae1e6;
+    
+    
+}
+
+.head {
+    background-image: url(/photos/bg_contents-header.png);
+    height: 43px; 
+    
+}
+
+.head h1 {
+    font-size: 19px;
+    padding: 9px 15px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.line-news {
+    margin-top: 45px;
+}
+
+.main-content-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-num {
+    display: flex;
+}
+
+.page-num a {
+    width: 19px;
+    height: 19px;
+    background-image: url(/photos/bg_slider-num-na.png);
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #787c7f;
+    text-decoration: none;
+    
+}
+
+.page-num a:first-child {
+    background-image: url(/photos/bg_slider-num.png);
+    color: #fff;
+}
+
+.page-num a:hover {
+    background-image: url(/photos/bg_slider-num-actv.png)
+}
+
+.next {
+    color: #787c7f;
+}
+
+.main-banners {
+    grid-column: 9/11;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-left: 14px;
+}
+
+.banner {
+    border: 1px solid #dae1e6;
+    width: 218px;
+    border-bottom: 1px solid #dae1e6;
+    margin-bottom: 23px;
+}
+
+.banner-content {
+    max-width: 218px;
+    padding: 8px 15px 5px;
+    border-bottom: 1px solid #dae1e6;
+}
+
+.banner-content p, a {
+    color: #787c7f;
+}
+
+.banner-content p:first-child {
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+}
+
+.banner-content p:nth-child(2) {
+    font-size: .7em;
+    padding-bottom: 10px;
+}
+
+.banner-more a{
+    text-decoration: none;
+    color: #0b3061;
+
+}
+
+.banner-more {
+    font-size: .7em;
+    text-align: end;
+    padding: 4px 25px 4px 0;
+    margin: 7px 10px 7px 0;
+    background-image: url(/photos/more-next.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.partners-wrapper {
+    margin: 0 auto;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logos {
+    width: 800px;
+    border-top: 1px solid #e1e7eb;
+    margin-top: 20px;
+    position: relative;
+}
+
+.logos::before {
+    content: 'Nasi partnerzy';
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    color: #787c7f;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f5f7f9;
+
+}
+
+.partners-wrapper {
+    background-color: #f5f7f9;
+}
+
+.partners {
+    width: 800px;
+    padding: 20px 0 30px 0;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 5px;
+    text-align: center;
+    box-sizing: content-box;
+    line-height: 1.4;
+    position: relative;
+}
+
+
+.partners a {
+    margin: 0 8px;
+}
+
+.partners img {
+    vertical-align: middle;
+}
+
+
+.cities {
+    width: 976px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dae1e6;
+    background-color: #fff;
+    padding: 22px 11px;
+    position: relative;
+    box-sizing: content-box;
+    
+}
+
+.cities::after {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 20px;
+    background: url(photos/bg_section-bottom.png) 50% bottom no-repeat;
+    bottom: -20px;
+    left: 0;
+}
+
+.cities ul {
+    width: 117px;
+    list-style: none;
+    margin: 0 11px;
+}
+
+.cities ul a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 2px 0 2px 10px;
+    display: block;
+    background: url(/photos/arrow-link.png) 0 50% no-repeat;
+    line-height: 1.2em;
+    color: #787c7f;
+}
+
+.cities ul a:hover {
+    background-image: url(/photos/arrow-link-actv.png);
+    color: #012853;
+}
+
+.links {
+    background-color: #60a4d1;
+    margin-top: -24px;
+}
+
+.info {
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1.2em;
+    border-bottom: 1px solid #78b0d5;
+    padding: 50px 22px 30px 22px;
+    width: 956px;
+    box-sizing: content-box;
+}
+
+.info p {
+    color: #265574;
+    display: inline-block;
+    
+}
+
+.sitemap a span {
+    font-size: 18px;
+    vertical-align: sub;
+    color: #f8a300;
+    
+}
+
+.sitemap {
+    width: 956px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 22px;
+}
+
+.sitemap li {
+    list-style: none;
+    width: 127px;
+    display: inline-flex;
+    
+}
+
+.sitemap a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+.sitemap ul a:hover, #upanchor:hover {
+    color: #f8a300;
+}
+
+.sitemap ul a {
+    background: url(/photos/arrow-link2.png) 0 50% no-repeat;
+    padding: 1px 0 1px 12px;
+}
+
+.sitemap ul {
+    width: 548px;
+}
+
+.phone {
+    padding-left: 20px;
+    background: url(/photos/ico-phone.png) 0 5% no-repeat;
+    display: block;
+}
+
+#upanchor {
+    padding: 4px 34px 4px 0;
+    background: url(/photos/ico-top.png) 50px 3px no-repeat;
+}
+
+.copyright {
+    background-color: #4f95c3;
+    border-top: 1px solid #70add6;
+}
+
+.copyright-content {
+    margin: 0 auto;
+    width: 956px;
+    padding: 22px 22px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.copyright-content a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.2em;
+
+}
+
+.copyright-content p a:hover {
+    color: #f8a300;
+}
+
+.copyright-icons {
+    width: 264px;
+    text-align: end;
+}
+
+.copyright-icons a img {
+    margin: 5px;
+}
+
+
+@media (max-width: 1235px) {
+
+    main {
+        width: 100%;
+    }
+
+    .main-content::after {
+        background-image: none;
+    }
+
+    .main-banners {
+        grid-column: 3/11;
+        
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner-content {
+        max-width: none;
+    }
+}
+
+@media (max-width: 1080px) {
+
+    .breadcrumbs, .partners-wrapper, .cities, .info, .sitemap ul, .login {
+        display: none;
+    }
+
+    .nav1 {
+        justify-content: flex-end;
+    }
+
+    .nav2 {
+        font-size: 15px;
+        justify-content: flex-end;
+    }
+
+    .nav2 a {
+        margin-left: 13px;
+    }
+
+    main {
+        max-width: 730px;
+        margin-top: 60px;
+    }
+
+    .main-nav-left {
+        grid-column: 1/4;
+    }
+
+    .main-contact, .main-content {
+        grid-column: 4/11;
+    }
+
+    .news-content {
+        flex-direction: column;
+        font-size: 18px;
+        max-width: 300px;
+    }
+
+    .news-more {
+        max-width: none;
+        padding-right: 20px;
+        text-align: right;
+        background-position: 100% 50%;
+    }
+
+    .news-more a {
+        padding-right: 5px;
+    }
+
+    .sitemap, .copyright-content {
+        max-width: 750px;
+    }
+
+    .links {
+        padding-top: 80px;
+    }
+
+    .sitemap {
+        border-top: 1px #78b0d5 solid;
+    }
+
+    .sitemap a span {
+        vertical-align: baseline;
+    }
+
+    .sitemap .phone, .sitemap a span {
+        font-size: 19px;
+    }
+
+    .copyright-icons {
+        text-align: center;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .nav1 .socials, .contact, .login, .socials::before, .nav2{
+        display: none;
+    }
+
+    nav {
+        align-items: center;
+        background-color: transparent;
+        padding-right: 0;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .socials-tablet {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .socials-tablet img:nth-child(1) {
+        border-radius: 4px;
+        margin-right: 10px;
+    }
+
+    .socials-tablet {
+        display: block;
+    }
+
+    .main-back {
+        display: grid;
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        margin-top: -20px;
+        place-items: center;
+    }
+
+    .main-back img {
+        width: 35px;
+    }
+
+    .main-nav-left {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        max-width: unset;
+    }
+
+    .main-contact, .main-content {
+        grid-column: 1/11;
+    }
+
+    .head-box {
+        border: none;
+    }
+
+    .head-box .head {
+        box-sizing: content-box;
+        padding: 6px;
+        background-image: linear-gradient(#3d7396, #0e446d);
+    }
+
+    .news-content {
+        flex-direction: row;
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    .main-content-nav {
+        justify-content: center;
+    }
+
+    .page-num {
+        display: none;
+    }
+
+    .next {
+        font-size: 16px;
+    }
+
+    .main-banners {
+        grid-column: 1/11;
+        padding-left: unset;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: row; 
+    }
+
+    .banner img {
+        max-height: 122px;
+    }
+
+    .banner-content {
+        min-width: 230px;
+    }
+
+    .banner .banner-more {
+        max-height: 25px;
+        width: 100%;
+    }
+
+    .links {
+        padding-top: 0;
+    }
+
+    .sitemap {
+        justify-content: flex-end;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    #upanchor {
+        font-size: 16px;
+        padding-right: 30px;
+        background-position: 63px 4px;
+    }
+
+    .copyright-content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .copyright-content p:nth-child(3) {
+        display: none;
+    }
+
+    .copyright-icons {
+        padding-top: 25px;
+    }
+
+    #p1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 520px) {
+
+    nav {
+        align-items: flex-start;
+    }
+
+    .teb-logo {
+        margin-top: 0;
+    }
+
+    .teb-logo img {
+        display: none;
+    }
+
+    .teb-logo a {
+        background-image: url(/photos/teb_edukacja_pion.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 80px;
+        height: 120px;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .socials-tablet {
+        margin-top: 15px;
+    }
+
+    .main-back {
+        margin-top: 0;
+    }
+
+    main {
+        padding: 8px;
+        margin-top: 30px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner img {
+        max-width: 218px;
+    }
+
+    .banner-content {
+        border-bottom: none;
+    }
+
+    .copyright-content {
+        display: block;
+        text-align: center;
+    }
+
+    .copyright-icons {
+        text-align: left;
+    }
+}
