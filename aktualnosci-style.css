@@ -11,7 +11,7 @@ html {
 
 body {
     line-height: 1.4;
-    background: #f5f7f9 url(/photos/bg_header.jpg) 50% 0 no-repeat;
+    background: #f5f7f9 url(photos/bg_header.jpg) 50% 0 no-repeat;
     overflow-x: hidden;
 }
 
@@ -115,7 +115,7 @@ nav a, p {
 }
 
 .login a {
-    background: url(/photos/btn-more-yellow.png) right no-repeat;
+    background: url(photos/btn-more-yellow.png) right no-repeat;
     padding-right: 25px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -195,7 +195,7 @@ main {
     position: absolute;
     width: 1260px;
     height: 20px;
-    background: url(/photos/bg_section-bottom.png) left bottom no-repeat;
+    background: url(photos/bg_section-bottom.png) left bottom no-repeat;
     bottom: -40px;
     left: -270px;
 }
@@ -215,7 +215,7 @@ main {
 .main-content-news h3 {
     font-weight: 300;
     font-style: italic;
-    background: url(/photos/bg_news-head.png) 0 bottom no-repeat;
+    background: url(photos/bg_news-head.png) 0 bottom no-repeat;
     line-height: 1.2em;
     padding: 0 30px 13px 0;
     font-size: 20px;
@@ -252,7 +252,7 @@ main {
     font-size: 12px;
     margin: 5px 0 10px 0;
     padding: 3px 0;
-    background: url(/photos/more-next.png) 90% 50% no-repeat;
+    background: url(photos/more-next.png) 90% 50% no-repeat;
     max-width: 100px;
 }
 
@@ -294,13 +294,13 @@ main {
 
 
 .button-active {
-    background: url(/photos/bg_menu-item-actv.png) no-repeat;
+    background: url(photos/bg_menu-item-actv.png) no-repeat;
 }
 
 .dotted-line {
     height: 1px;
     width: 100%;
-    background: url(/photos/bg_hr-dot.png) repeat-x;
+    background: url(photos/bg_hr-dot.png) repeat-x;
     margin: 22px 0;
 }
 
@@ -313,7 +313,7 @@ main {
 .left-buttons-wrapper a {
     text-transform: uppercase;
     font-style: italic;
-    background-image: url(/photos/bg_btn-h35-blue.png);
+    background-image: url(photos/bg_btn-h35-blue.png);
     background-repeat: repeat-x;
     background-position: top left;
     position: relative;
@@ -324,7 +324,7 @@ main {
     content: '';
     width: 10px;
     height: 10px;
-    background-image: url(/photos/bg_btn-more.png);
+    background-image: url(photos/bg_btn-more.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     top: 12px;
@@ -332,7 +332,7 @@ main {
 }
 
 .left-buttons-wrapper li:last-child a {
-    background-image: url(/photos/bg_btn-h35-lightblue.png);
+    background-image: url(photos/bg_btn-h35-lightblue.png);
 }
 
 .left-buttons-wrapper a:hover {
@@ -358,7 +358,7 @@ main {
 }
 
 .head {
-    background-image: url(/photos/bg_contents-header.png);
+    background-image: url(photos/bg_contents-header.png);
     height: 43px; 
     
 }
@@ -387,7 +387,7 @@ main {
 .page-num a {
     width: 19px;
     height: 19px;
-    background-image: url(/photos/bg_slider-num-na.png);
+    background-image: url(photos/bg_slider-num-na.png);
     background-repeat: no-repeat;
     margin-left: 5px;
     font-size: 11px;
@@ -400,12 +400,12 @@ main {
 }
 
 .page-num a:first-child {
-    background-image: url(/photos/bg_slider-num.png);
+    background-image: url(photos/bg_slider-num.png);
     color: #fff;
 }
 
 .page-num a:hover {
-    background-image: url(/photos/bg_slider-num-actv.png)
+    background-image: url(photos/bg_slider-num-actv.png)
 }
 
 .next {
@@ -460,7 +460,7 @@ main {
     text-align: end;
     padding: 4px 25px 4px 0;
     margin: 7px 10px 7px 0;
-    background-image: url(/photos/more-next.png);
+    background-image: url(photos/more-next.png);
     background-repeat: no-repeat;
     background-position: right;
     
@@ -557,13 +557,13 @@ main {
     font-size: 13px;
     padding: 2px 0 2px 10px;
     display: block;
-    background: url(/photos/arrow-link.png) 0 50% no-repeat;
+    background: url(photos/arrow-link.png) 0 50% no-repeat;
     line-height: 1.2em;
     color: #787c7f;
 }
 
 .cities ul a:hover {
-    background-image: url(/photos/arrow-link-actv.png);
+    background-image: url(photos/arrow-link-actv.png);
     color: #012853;
 }
 
@@ -622,7 +622,7 @@ main {
 }
 
 .sitemap ul a {
-    background: url(/photos/arrow-link2.png) 0 50% no-repeat;
+    background: url(photos/arrow-link2.png) 0 50% no-repeat;
     padding: 1px 0 1px 12px;
 }
 
@@ -632,13 +632,13 @@ main {
 
 .phone {
     padding-left: 20px;
-    background: url(/photos/ico-phone.png) 0 5% no-repeat;
+    background: url(photos/ico-phone.png) 0 5% no-repeat;
     display: block;
 }
 
 #upanchor {
     padding: 4px 34px 4px 0;
-    background: url(/photos/ico-top.png) 50px 3px no-repeat;
+    background: url(photos/ico-top.png) 50px 3px no-repeat;
 }
 
 .copyright {
@@ -937,7 +937,7 @@ main {
     }
 
     .teb-logo a {
-        background-image: url(/photos/teb_edukacja_pion.png);
+        background-image: url(photos/teb_edukacja_pion.png);
         background-size: contain;
         background-repeat: no-repeat;
         width: 80px;

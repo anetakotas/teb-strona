@@ -12,7 +12,7 @@ html {
 
 body {
     line-height: 1.4;
-    background: #f5f7f9 url(/photos/bg_header.jpg) 50% 0 no-repeat;
+    background: #f5f7f9 url(photos/bg_header.jpg) 50% 0 no-repeat;
     width: 100%;
     overflow-x: hidden;
 }
@@ -53,6 +53,10 @@ nav a, p {
 
 .nav1 div:nth-child(2) {
     margin-left: 50px;
+}
+
+.socials-tablet {
+    display: none;
 }
 
 .socials {
@@ -113,7 +117,7 @@ nav a, p {
 }
 
 .login a {
-    background: url(/photos/btn-more-yellow.png) right no-repeat;
+    background: url(photos/btn-more-yellow.png) right no-repeat;
     padding-right: 25px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -188,7 +192,7 @@ main {
     position: absolute;
     width: 1260px;
     height: 20px;
-    background: url(/photos/bg_section-bottom.png) left bottom no-repeat;
+    background: url(photos/bg_section-bottom.png) left bottom no-repeat;
     bottom: -35px;
     left: 0;
     
@@ -228,7 +232,7 @@ main {
     color: #0b3061;
     padding-left: 10px;
     margin-bottom: 10px;
-    background-image: url(/photos/arrow-link-actv.png);
+    background-image: url(photos/arrow-link-actv.png);
     background-repeat: no-repeat;
     background-position-y: 50%;
     font-size: 16px;
@@ -237,13 +241,13 @@ main {
 .dots-line {
     width: 100%;
     height: 1px;
-    background-image: url(/photos/bg_hr-dot.png);
+    background-image: url(photos/bg_hr-dot.png);
     background-repeat: repeat-x;
     margin: 15px 0;
 }
 
 .main-city-button {
-    background-image: url(/photos/btn-select-form.png);
+    background-image: url(photos/btn-select-form.png);
     text-decoration: none;
     color: #787c7f;
     background-repeat: no-repeat;
@@ -261,7 +265,7 @@ main {
 }
 
 .head {
-    background-image: url(/photos/bg_contents-header.png);
+    background-image: url(photos/bg_contents-header.png);
     height: 43px; 
     
 }
@@ -342,7 +346,7 @@ main {
     text-align: end;
     padding: 4px 25px 4px 0;
     margin: 10px 10px 10px 0;
-    background-image: url(/photos/more-next.png);
+    background-image: url(photos/more-next.png);
     background-repeat: no-repeat;
     background-position: right;
     
@@ -439,13 +443,13 @@ main {
     font-size: 13px;
     padding: 2px 0 2px 10px;
     display: block;
-    background: url(/photos/arrow-link.png) 0 50% no-repeat;
+    background: url(photos/arrow-link.png) 0 50% no-repeat;
     line-height: 1.2em;
     color: #787c7f;
 }
 
 .cities ul a:hover {
-    background-image: url(/photos/arrow-link-actv.png);
+    background-image: url(photos/arrow-link-actv.png);
     color: #012853;
 }
 
@@ -504,7 +508,7 @@ main {
 }
 
 .sitemap ul a {
-    background: url(/photos/arrow-link2.png) 0 50% no-repeat;
+    background: url(photos/arrow-link2.png) 0 50% no-repeat;
     padding: 1px 0 1px 12px;
 }
 
@@ -514,13 +518,13 @@ main {
 
 .phone {
     padding-left: 20px;
-    background: url(/photos/ico-phone.png) 0 5% no-repeat;
+    background: url(photos/ico-phone.png) 0 5% no-repeat;
     display: block;
 }
 
 #upanchor {
     padding: 4px 34px 4px 0;
-    background: url(/photos/ico-top.png) 50px 3px no-repeat;
+    background: url(photos/ico-top.png) 50px 3px no-repeat;
 }
 
 .copyright {
@@ -815,7 +819,7 @@ main {
     }
 
     .teb-logo a {
-        background-image: url(/photos/teb_edukacja_pion.png);
+        background-image: url(photos/teb_edukacja_pion.png);
         background-size: contain;
         background-repeat: no-repeat;
         width: 80px;

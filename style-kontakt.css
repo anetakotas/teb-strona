@@ -116,15 +116,15 @@ body {
     color: #555;
     outline: none;
     border: 1px solid #CECCCC;
-    background: url(/photos/user.png) no-repeat 96% 55%;
+    background: url(photos/user.png) no-repeat 96% 55%;
 }
 
 .form-content input:nth-child(8) {
-    background-image: url(/photos/phone.png);
+    background-image: url(photos/phone.png);
 }
 
 .form-content input:nth-child(10) {
-    background-image: url(/photos/email.png);
+    background-image: url(photos/email.png);
 }
 
 .form-content input:hover {

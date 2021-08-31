@@ -116,7 +116,7 @@ nav a, p {
 }
 
 .login a {
-    background: url(/photos/btn-more-yellow.png) right no-repeat;
+    background: url(photos/btn-more-yellow.png) right no-repeat;
     padding-right: 25px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -176,19 +176,19 @@ nav a, p {
 }
 
 .slides:nth-child(1) {
-    background-image: url(/photos/www_slider_1920x490_wybieraj_3.jpg);
+    background-image: url(photos/www_slider_1920x490_wybieraj_3.jpg);
 }
 
 .slides:nth-child(2) {
-    background-image: url(/photos/www_slider_1920x490_9.jpg);
+    background-image: url(photos/www_slider_1920x490_9.jpg);
 }
 
 .slides:nth-child(3) {
-    background-image: url(/photos/www_slider_1920x490_umowa_zdalnie.jpg);
+    background-image: url(photos/www_slider_1920x490_umowa_zdalnie.jpg);
 }
 
 .slides:nth-child(4) {
-    background-image: url(/photos/www_slider_1920x490_SBC_4.jpg);
+    background-image: url(photos/www_slider_1920x490_SBC_4.jpg);
 }
 
 .showing {
@@ -218,7 +218,7 @@ nav a, p {
     margin: 5px 0;
     color: rgb(250, 250, 250);
     font-style: italic;
-    background-image: url(/photos/btn-base.png);
+    background-image: url(photos/btn-base.png);
     background-position: top;
     background-repeat: no-repeat;
     
@@ -241,7 +241,7 @@ nav a, p {
 .slider-buttons a:nth-child(3):before {
     content: '';
     position: absolute;
-    background-image: url(/photos/bg_hr-dot.png);
+    background-image: url(photos/bg_hr-dot.png);
     width: 250px;
     height: 1px;
     top: -22px;
@@ -259,13 +259,13 @@ nav a, p {
 }
 
 #number-active {
-    background-image: url(/photos/bg_slider-num-actv.png);
+    background-image: url(photos/bg_slider-num-actv.png);
 }
 
 .slider-number {
     width: 19px;
     height: 19px;
-    background-image: url(/photos/bg_slider-num.png);
+    background-image: url(photos/bg_slider-num.png);
     background-repeat: no-repeat;
     margin-left: 5px;
     font-size: 11px;
@@ -279,7 +279,7 @@ nav a, p {
 
 
 .slider-counter div:hover {
-    background-image: url(/photos/bg_slider-num-actv.png);
+    background-image: url(photos/bg_slider-num-actv.png);
     background-repeat: no-repeat;
     cursor: pointer;
 }
@@ -300,7 +300,7 @@ nav a, p {
     content: '';
     width: 100%;
     height: 20px;
-    background-image: url(/photos/bg_section-bottom.png);
+    background-image: url(photos/bg_section-bottom.png);
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
@@ -332,7 +332,7 @@ nav a, p {
     width: 100%;
     
     max-width: 309px;
-    background-image: url(/photos/card_policealne.png);
+    background-image: url(photos/card_policealne.png);
     background-repeat: no-repeat;
     background-position: left;
     background-color: #ef7d00;
@@ -340,57 +340,57 @@ nav a, p {
 }
 
 .card-container div:nth-child(2) .card-heading {
-    background-image: url(/photos/card_medyczne.png);
+    background-image: url(photos/card_medyczne.png);
     background-color: #00a297;
 }
 
 .card-container div:nth-child(3) .card-heading {
-    background-image: url(/photos/card_online.png);
+    background-image: url(photos/card_online.png);
     background-color: #051f5c;
 }
 
 .card-container div:nth-child(4) .card-heading {
-    background-image: url(/photos/card_technikum.png);
+    background-image: url(photos/card_technikum.png);
     background-color: #e30613;
 }
 
 .card-container div:nth-child(5) .card-heading {
-    background-image: url(/photos/card_akademia.png);
+    background-image: url(photos/card_akademia.png);
     background-color: #702283;
 }
 
 .card-container div:nth-child(6) .card-heading {
-    background-image: url(/photos/card_liceum.png);
+    background-image: url(photos/card_liceum.png);
     background-color: #52ae32;
 }
 
 .card-container div:nth-child(7) .card-heading {
-    background-image: url(/photos/card_kursy.png);
+    background-image: url(photos/card_kursy.png);
     background-color: #5d686e;
 }
 
 .card-container div:nth-child(8) .card-heading {
-    background-image: url(/photos/card_projekty.png);
+    background-image: url(photos/card_projekty.png);
     background-color: #0084d3;
 }
 
 .card-container div:nth-child(9) .card-heading {
-    background-image: url(/photos/card_produkt.png);
+    background-image: url(photos/card_produkt.png);
     background-color: #23376c;
 }
 
 .card-container div:nth-child(10) .card-heading {
-    background-image: url(/photos/card_letnia.png);
+    background-image: url(photos/card_letnia.png);
     background-color: #d57590;
 }
 
 .card-container div:nth-child(11) .card-heading {
-    background-image: url(/photos/card_biblioteka.png);
+    background-image: url(photos/card_biblioteka.png);
     background-color: #4292d7;
 }
 
 .card-container div:nth-child(12) .card-heading {
-    background-image: url(/photos/card_policealne.png);
+    background-image: url(photos/card_policealne.png);
     background-color: #ef7d00;;
 }
 
@@ -486,7 +486,7 @@ nav a, p {
     font-size: 12px;
     float: right;
     padding: 4px 27px 4px 0;
-    background-image: url(/photos/more-navy-blue.png);
+    background-image: url(photos/more-navy-blue.png);
     background-repeat: no-repeat;
     background-position: right;
     margin-right: 1px;
@@ -585,13 +585,13 @@ nav a, p {
     font-size: 13px;
     padding: 2px 0 2px 10px;
     display: block;
-    background: url(/photos/arrow-link.png) 0 50% no-repeat;
+    background: url(photos/arrow-link.png) 0 50% no-repeat;
     line-height: 1.2em;
     color: #787c7f;
 }
 
 .cities ul a:hover {
-    background-image: url(/photos/arrow-link-actv.png);
+    background-image: url(photos/arrow-link-actv.png);
     color: #012853;
 }
 
@@ -650,7 +650,7 @@ nav a, p {
 }
 
 .sitemap ul a {
-    background: url(/photos/arrow-link2.png) 0 50% no-repeat;
+    background: url(photos/arrow-link2.png) 0 50% no-repeat;
     padding: 1px 0 1px 12px;
 }
 
@@ -660,13 +660,13 @@ nav a, p {
 
 .phone {
     padding-left: 20px;
-    background: url(/photos/ico-phone.png) 0 5% no-repeat;
+    background: url(photos/ico-phone.png) 0 5% no-repeat;
     display: block;
 }
 
 #upanchor {
     padding: 4px 34px 4px 0;
-    background: url(/photos/ico-top.png) 50px 3px no-repeat;
+    background: url(photos/ico-top.png) 50px 3px no-repeat;
 }
 
 .copyright {
@@ -738,19 +738,19 @@ nav a, p {
     }
 
     .slides:nth-child(1) {
-        background-image: url(/photos/slider_991x420_umowa-zdalnie.jpg);
+        background-image: url(photos/slider_991x420_umowa-zdalnie.jpg);
     }
 
     .slides:nth-child(2) {
-        background-image: url(/photos/slider_767x420_czesne0zl_3.jpg);
+        background-image: url(photos/slider_767x420_czesne0zl_3.jpg);
     }
 
     .slides:nth-child(3) {
-        background-image: url(/photos/slider_991x420_umowa-zdalnie.jpg);
+        background-image: url(photos/slider_991x420_umowa-zdalnie.jpg);
     }
 
     .slides:nth-child(4) {
-        background-image: url(/photos/slider_767x420_czesne0zl_3.jpg);
+        background-image: url(photos/slider_767x420_czesne0zl_3.jpg);
     }
 
     .card-container {
@@ -907,19 +907,19 @@ nav a, p {
     }
 
     .slides:nth-child(1) {
-        background-image: url(/photos/slider_991x420_umowa-zdalnie.jpg);
+        background-image: url(photos/slider_991x420_umowa-zdalnie.jpg);
     }
 
     .slides:nth-child(2) {
-        background-image: url(/photos/slider_767x420_czesne0zl_3.jpg);
+        background-image: url(photos/slider_767x420_czesne0zl_3.jpg);
     }
 
     .slides:nth-child(3) {
-        background-image: url(/photos/slider_991x420_umowa-zdalnie.jpg);
+        background-image: url(photos/slider_991x420_umowa-zdalnie.jpg);
     }
 
     .slides:nth-child(4) {
-        background-image: url(/photos/slider_767x420_czesne0zl_3.jpg);
+        background-image: url(photos/slider_767x420_czesne0zl_3.jpg);
     }
 
     .slider-counter {
@@ -1035,7 +1035,7 @@ nav a, p {
     }
 
     .teb-logo a {
-        background-image: url(/photos/teb_edukacja_pion.png);
+        background-image: url(photos/teb_edukacja_pion.png);
         background-size: contain;
         background-repeat: no-repeat;
         width: 80px;
@@ -1057,19 +1057,19 @@ nav a, p {
     }
 
     .slides:nth-child(1) {
-        background-image: url(/photos/slider_519x420_umowa-zdalnie.jpg);
+        background-image: url(photos/slider_519x420_umowa-zdalnie.jpg);
     }
 
     .slides:nth-child(2) {
-        background-image: url(/photos/slider_519x420_czesne0zl_4.jpg);
+        background-image: url(photos/slider_519x420_czesne0zl_4.jpg);
     }
 
     .slides:nth-child(3) {
-        background-image: url(/photos/slider_519x420_umowa-zdalnie.jpg);
+        background-image: url(photos/slider_519x420_umowa-zdalnie.jpg);
     }
 
     .slides:nth-child(4) {
-        background-image: url(/photos/slider_519x420_czesne0zl_4.jpg);
+        background-image: url(photos/slider_519x420_czesne0zl_4.jpg);
     }
 
     .slider-buttons-container {
